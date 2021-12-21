@@ -1,6 +1,7 @@
 import os, sys
 import imaplib
 import datetime
+import schedule
 
 def email_scraper(server, uname, pwd):
     username = uname
